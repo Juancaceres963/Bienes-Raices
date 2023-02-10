@@ -37,7 +37,6 @@ img {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
-
 .fw-300{
     font-weight: 300;
 }
@@ -47,6 +46,10 @@ img {
 .d-block {
     display: block!important;
 }
+.contenido-centrado {
+    max-width: 80rem!important;
+}
+
 /* Botones */
 
 .boton {
@@ -161,6 +164,8 @@ img {
     justify-content: space-evenly;
     list-style: none;
     padding: 0;
+    flex: 1;
+    max-width: 50rem;    
 }
 .iconos-card-caracteristicas li {
     display: flex;
@@ -278,6 +283,8 @@ img {
     color: #ffffff;
 }
 
+/* paginas internas*/
+
 /* Codigo de la pagina de nosotros */
 
 .contenido-nosotros {
@@ -292,3 +299,12 @@ img {
     font-size: 2rem;
     padding: 1rem 0 3rem 0;
 }
+
+/* anuncio */
+
+.resumen-propiedad {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
